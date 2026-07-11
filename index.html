@@ -431,40 +431,30 @@
             <div style="margin-top: 15px; padding: 15px; background: #e9ecef; border-radius: 10px;">
 
                 <p><strong>1. Requisitos Funcionais e Não Funcionais:</strong><br>
-                Os <strong>requisitos funcionais</strong> descrevem as funcionalidades, serviços e comportamentos que o sistema deve oferecer para atender as necessidades dos usuários. Eles respondem à pergunta: "O que o sistema deve fazer?" Exemplos: realizar cadastro de usuários, processar pedidos, gerar relatórios, etc.<br>
-                Já os <strong>requisitos não funcionais</strong> estabelecem critérios de qualidade, restrições e atributos que o sistema deve possuir para ser considerado adequado. Eles respondem à pergunta: "Como o sistema deve ser?" Exemplos: tempo de resposta, disponibilidade, segurança, usabilidade, desempenho, portabilidade.<br>
-                Enquanto os requisitos funcionais são obrigatórios e definem o escopo do sistema, os não funcionais qualificam esses requisitos, garantindo que o software atenda a padrões de qualidade e confiabilidade. Ambos são documentados no Documento de Especificação de Requisitos (DER).</p>
+                <strong>Funcionais:</strong> descrevem o que o sistema deve fazer (ex: cadastrar usuário, gerar relatório).<br>
+                <strong>Não funcionais:</strong> estabelecem critérios de qualidade (ex: desempenho, segurança, usabilidade).<br>
+                Ambos são documentados no DER (Documento de Especificação de Requisitos).</p>
 
                 <p><strong>2. UML: Visão Estrutural e Comportamental:</strong><br>
-                A UML (Unified Modeling Language) é uma linguagem de notação gráfica para especificar, visualizar e documentar modelos de software orientados a objetos. Seus diagramas são divididos em duas grandes visões:<br>
-                • <strong>Visão Estrutural (Estática)</strong>: foca na organização e estrutura do sistema, mostrando quais elementos compõem o sistema e como eles se relacionam. Inclui diagramas como: Diagrama de Classes, Diagrama de Componentes, Diagrama de Pacotes, Diagrama de Objetos.<br>
-                • <strong>Visão Comportamental (Dinâmica)</strong>: foca no comportamento e interação entre os elementos do sistema ao longo do tempo, mostrando como os objetos se comunicam e respondem a estímulos. Inclui diagramas como: Diagrama de Sequência, Diagrama de Colaboração/Comunicação, Diagrama de Estado, Diagrama de Atividades.<br>
-                A UML permite modelar o sistema sob diferentes perspectivas, garantindo uma compreensão completa tanto da estrutura quanto da dinâmica do software a ser desenvolvido.</p>
+                <strong>Estrutural (estática):</strong> mostra a organização do sistema (ex: Diagrama de Classes, Componentes).<br>
+                <strong>Comportamental (dinâmica):</strong> mostra a interação entre os elementos (ex: Diagrama de Sequência, Estado).<br>
+                UML é uma notação gráfica para modelar software orientado a objetos.</p>
 
                 <p><strong>3. Diagrama de Classes: Conceitos e Relacionamentos:</strong><br>
-                O Diagrama de Classes é o diagrama mais fundamental da UML, pois modela a estrutura estática do sistema orientado a objetos. Seus principais conceitos são:<br>
-                • <strong>Classe</strong>: é uma descrição abstrata de um conjunto de objetos que compartilham atributos, operações e relacionamentos. Exemplo: classe "Cliente".<br>
-                • <strong>Atributos</strong>: são as propriedades ou características de uma classe (ex: nome, CPF, telefone). A visibilidade pode ser pública (+), privada (-) ou protegida (#).<br>
-                • <strong>Operações/Métodos</strong>: são as ações ou comportamentos que uma classe pode executar (ex: calcularTotal(), validarCPF()).<br>
-                • <strong>Relacionamentos</strong>: representam associações entre classes, como associação simples, agregação, composição e herança. Exemplo: um Pedido possui vários Itens.<br>
-                • <strong>Abstração</strong>: foco nos aspectos essenciais, ignorando detalhes irrelevantes.<br>
-                • <strong>Encapsulamento</strong>: ocultação dos detalhes internos de implementação.<br>
-                • <strong>Herança</strong>: compartilhamento de atributos e operações entre classes em uma hierarquia.</p>
+                <strong>Classe:</strong> abstração de um conjunto de objetos com atributos e métodos.<br>
+                <strong>Relacionamentos:</strong> associação, agregação, composição e herança.<br>
+                <strong>Visibilidade:</strong> público (+), privado (-), protegido (#).<br>
+                Fundamentos: abstração, encapsulamento e herança.</p>
 
-                <p><strong>4. BPM, BPMN e Mapeamento de Processos (AS IS e TO BE):</strong><br>
-                • <strong>BPM (Business Process Management)</strong> é uma disciplina de gestão que combina quatro elementos fundamentais: processos ou atividades, pessoas, tecnologia e organização. Seu objetivo é melhorar a eficiência e eficácia dos processos de negócio.<br>
-                • <strong>BPMN (Business Process Model and Notation)</strong> é a linguagem padrão para modelar processos de negócio. Seus elementos principais incluem: piscinas (containers para processos), raias (subdivisões para organizar atividades), tarefas, eventos de início/fim e gateways de decisão.<br>
-                • <strong>Mapeamento AS IS</strong> (como é) identifica e descreve o processo atual da organização, documentando como ele é executado no momento. Serve como linha de base para análise.<br>
-                • <strong>Mapeamento TO BE</strong> (como será) propõe um novo processo de negócio ou melhorias significativas, com base na análise do processo atual. Seu objetivo é eliminar gargalos, reduzir custos e otimizar resultados.<br>
-                A combinação dessas técnicas permite que organizações compreendam, documentem e melhorem seus processos de forma contínua e estruturada.</p>
+                <p><strong>4. BPM, BPMN e Mapeamento de Processos:</strong><br>
+                <strong>BPM:</strong> disciplina de gestão que combina processos, pessoas, tecnologia e organização.<br>
+                <strong>BPMN:</strong> linguagem padrão para modelar processos (piscinas, raias, tarefas, eventos).<br>
+                <strong>AS IS:</strong> mapeia o processo atual. <strong>TO BE:</strong> propõe melhorias para o processo futuro.</p>
 
                 <p><strong>5. Análise de Requisitos e Documento de Especificação:</strong><br>
-                A análise de requisitos é a fase do ciclo de desenvolvimento de software que tem como objetivo compreender profundamente as necessidades do cliente e traduzi-las em requisitos claros e bem definidos. Essa fase é considerada crítica, pois erros de entendimento podem comprometer todo o projeto.<br>
-                • <strong>Levantamento de requisitos</strong>: envolve técnicas como entrevistas, questionários, observação e workshops com os usuários.<br>
-                • <strong>Analista de requisitos</strong>: deve ouvir os usuários, instigá-los a detalhar as necessidades e provocar discussões objetivas para identificar o real problema a ser resolvido.<br>
-                • <strong>Documento de Especificação de Requisitos (DER)</strong>: é o principal artefato dessa fase. Ele estabelece tanto os requisitos funcionais quanto os não funcionais, servindo como base para o projeto, desenvolvimento e testes do software.<br>
-                • <strong>Caso de Uso</strong>: é uma técnica para descrever funcionalidades, documentando ações, fluxos principal (caminho feliz) e alternativos (cenários de exceção).<br>
-                O sucesso de um projeto de software depende diretamente da qualidade do levantamento e da especificação dos requisitos, garantindo que o produto final atenda às expectativas do cliente.</p>
+                <strong>Análise:</strong> fase crítica para entender as necessidades do cliente e traduzi-las em requisitos.<br>
+                <strong>DER:</strong> documento que especifica requisitos funcionais e não funcionais.<br>
+                <strong>Caso de Uso:</strong> descreve funcionalidades com fluxos principal (caminho feliz) e alternativos.</p>
 
             </div>
         </details>

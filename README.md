@@ -59,11 +59,11 @@ Este é um **quiz interativo** desenvolvido para auxiliar no estudo da disciplin
 
 ## 🚀 Como Usar
 
-### Acesse Online
+
 
 O quiz está disponível através do GitHub Pages:
 
-🔗 **[Insira aqui o link do seu GitHub Pages]**
+🔗 **[[### Acesse Online](https://jonathastrevezani.github.io/Quiz_A_Modelagem_Sistemas/)]**
 
 ### Executar Localmente
 
